@@ -1,0 +1,25 @@
+{
+  "name": "Gmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "googleapis": "^39.2.0",
+    "http": "0.0.0",
+    "morgan": "^1.10.0",
+    "node-gmail-api": "^0.6.1",
+    "passport-google-oauth": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express-validator": "^6.4.0",
+    "readline-promise": "^1.0.4"
+  }
+}
