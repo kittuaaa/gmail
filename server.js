@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
 });
 
 // logger layer
-app.use(morgan('dev'));
+app.use(morgan('combined'));
 
 // load controller
 require('./controller/gmail-controller')(app);
